@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "journal"
+
+journal = Journal::Instruct.new
+
+Journal::Input.new(ARGV)
